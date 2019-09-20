@@ -4,10 +4,35 @@ Követelménypecifikáció
 
 1.Vezetői összefoglaló
 
+Egy olyan program létrehozása, amivel egyszerűen, gyorsan és könnyedén
+válogathatunk, keresgélhetünk, különböző receptek között. Ezen receptek
+tartalmazzák a megfelelő hozzávalókat valamint az ételek elkészítést is.
+
+*a projekt es az elkeszitendo rendszer nagyvonalu leirasa, apro techkina
+ki reszek nelkul*
+
 2.Jelenlegi helyzet
+
+A jelenlegi helyzetben, sajnos kézzel, papíron kell tárolni az egyes
+recepteket. Ezeknek a kikeresése fáradalmas és megletősen időigényes
+folyamat.Továbbá bővítésük, karbantartásuk, másolásuk, terjesztésük,
+rengeteg, időt és munkát vesz, igénybe, valamint, csak és kizárólag
+papír alapon érhetőek el.
+
+*ez a fejezet nem a projektet hanem az az elotti helyzetet mutatja be vm
+int azt h miert van szukseg fejlesztesre*
 
 3.Vágyálom rendszer
 
+
 4.Jelenlegi üzleti folyamatok
 
+
 5.Igényelt üzleti folyamatok
+Fontos lenne egy könnyen áttekinthető, egyszerűen kezelhető felhasználói
+felület, amin bárki könnyen eligazodik. Továbbá egy olyan tároló módszer,
+amit gyorsan és könnyen lehet bővíteni a kívánt receptekkel, és hozzávaló-
+jukkal.
+
+Feladatok:
+*mirol szol az amit csinalunk*
