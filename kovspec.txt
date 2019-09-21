@@ -1,12 +1,14 @@
-Demo Projekt:<NÉV>
 
-Követelménypecifikáció
 
 1.Vezetői összefoglaló
 
 Egy olyan program létrehozása, amivel egyszerűen, gyorsan és könnyedén
 válogathatunk, keresgélhetünk, különböző receptek között. Ezen receptek
 tartalmazzák a megfelelő hozzávalókat valamint az ételek elkészítést is.
+
+A szoftver célja a receptek közötti válogatás, és elérhetőség gördülékennyé tétele.
+Egy egyszerű felhasználói felülettel, hogy a felhasználók is könnyen és 
+gyorsan hozzájussanak a kívánt információkhoz.
 
 *a projekt es az elkeszitendo rendszer nagyvonalu leirasa, apro techkina
 ki reszek nelkul*
@@ -19,20 +21,37 @@ folyamat.Továbbá bővítésük, karbantartásuk, másolásuk, terjesztésük,
 rengeteg, időt és munkát vesz, igénybe, valamint, csak és kizárólag
 papír alapon érhetőek el.
 
+A felhasználónak végig kell olvasnia a hozzávalók listáját, hogy 
+megtudja mire lenne szüksége. a kategorizálás, és az új recept 
+felvétele hosszadalmasabb, nehezebb kijavítani. A papírok/ füzet 
+könnyen rongálódhat, eltűnhet, megsemmisülhet. 
+
 *ez a fejezet nem a projektet hanem az az elotti helyzetet mutatja be vm
 int azt h miert van szukseg fejlesztesre*
 
 3.Vágyálom rendszer
 
+A szoftvernek az alapvető funkciókon felül, mint a keresés és új recept rögzítése,
+rendelkezhetne tematikus felhasználói felülettel, ami illik a szoftver témájához. 
+A felhasználók hiba esetén tudnak recepteket szerkeszteni, törölni, ezzel még 
+gördülékenyebbé téve a használatát. Igény szerint elkészítési időt, tippeket, 
+aktuális árakat is rögzíthetne, ezzel segítve a felhasználókat az idejük beosztásával, 
+tervezésben.
 
 4.Jelenlegi üzleti folyamatok
 
 
 5.Igényelt üzleti folyamatok
+
 Fontos lenne egy könnyen áttekinthető, egyszerűen kezelhető felhasználói
 felület, amin bárki könnyen eligazodik. Továbbá egy olyan tároló módszer,
 amit gyorsan és könnyen lehet bővíteni a kívánt receptekkel, és hozzávaló-
 jukkal.
+
+A felhasználók életének megkönnyítése érdekében a szoftver egy könnyen kezelhető 
+felülettel kell, hogy rendelkezzen. Egyértelműnek kell lennie, hogy hol lehet keresni, 
+valamint új receptet megadni, majd elmenteni és ez ne igényeljen az általános informatikai 
+ismereteknél többet. Lényegi dolog az adatok biztonságos és biztos tárolása.
 
 Feladatok:
 *mirol szol az amit csinalunk*
