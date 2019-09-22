@@ -1,5 +1,20 @@
 -A rendszer célja
 
+A készítendő rendszer célja egy egyszerűen és könnyen kezelhető, olvasható
+recept tároló program elkészítése. A kész programnak meg kell felelnie a
+megrendelő által támasztott követelményeknek, így a kezelőfelületnek könnyen
+és gyorsan megérthetőnek kell lennie, bárminemű előzetes betanítás nélkül.
+A minél egyszerűbb érthetőség érdekében, egyszerű lenyíló listák alkalmazásával
+érjük el a kívánt recept, és az ahhoz szükséges hozzávalók megjelenítését.
+A programnak nem közvetlen célja az egyes receptek tovább küldése, így
+hálózati kapcsolatot nem ígényel, valamint a már tartalmazott receptek
+másolása sem a program része. Ez a program által használt JSON fálj 
+megfelelő részének továbbításával lehetséges, magán úton, pl. e-mailben.
+Későbbi verzókban előfordulhat beépített adatkezelés, azaz harmadik fél
+által fejlesztett program nélkül lesz képes a program a tárolt receptek,
+illetve a hozzájuk szükséges hozzávalók módosítására, javítására, vagy
+az esetleges bővítésére is. Továbbá ezen receptek harmadik félnek való
+küldésére is, akár e-mail formátumában.
 
 
 -Üzleti folyamatok modellje
@@ -13,15 +28,56 @@
 
 -Fizikai környezet
 
+A program fejlesztéséhez legalább 8-as verziójú Javat fogunk használni.
+Ezzel tudjuk elérni, hogy a kívánt platformokra egy verzió fejlesztése
+mellett ki tudjuk adni a programot. Illetve, a platformok között az
+átjárás biztosított legyen.
+Ezek a platformok a következőek:
+-Windows 7/8/8.1/10
+-Linux
+-MacOS.
+Tekintve, hogy a programnak egyáltalán nem szerves része, az ügyfelek közötti
+adatcsere, így a helyi hálózat állapota, a tűzfal, illetve a nyitott portok
+minket ebben az esetben nem érdekelnek. Esetlegesen egy későbbi verzióban igen.
+Külsőleg megvásárolt komponenseket nem fogunk használni, minden a program
+által használt eszközt, itt helyben fogunk kifejleszteni.
+
 
 -Absztrakt domain modell
 
+A program felépítese nagyon minimalisztikus, csak két egymás mellett
+elhelyezett, lenyíló listából áll, ezek alatt helyezkedik el az a
+szövegdoboz, ami a kiválasztott étel receptjét, és hozzávalóit fogja
+tartalmazni.
+Az első lenyíló lista tartalmazza a JSON fájlban tárolt ételek eredetét,
+mint például magyaros vagy olasz. A második lenyíló lista tartalmazza
+az ehhez a kategóriához tartozó ételeket. A második lenyíló lista, csak
+a megfelelő kategória kiválasztása után fogja az abba tartozó ételek nevét
+tartalmazni, előtte egy figyelmeztető szöveget "Kérem válasszon kategóriát!"
+kell hogy lásson a felhasználó. Ezzel is segítve a felhasználói élményt,
+illetve, az érthetőség elérését. Csakis miután a felhasználó választott
+egy konkrét ételt jelenjen meg az étel receptje a lenyíló lista alatti
+szövegdobozban! Előtte egy információs szöveget: "Kérem válasszon ételt!"
+tartalmazzon!
+A recept megjelenítése történhet az étel kiválasztása után egyből automatikusan,
+vagy egy gomb megnyomása után is, ez fejlesztési időben dől el.
 
 -Architekturális terv
 
 
 -Adatbázis terv
 
+A program az adatok tárolására egy JSON fájlt fog használni. Ebben a fáljban
+kell majd eltárolni, mind az étel típusokat, azoknak a neveit, illetve
+az elkészítésükhöz használandó alapanyagokat,illetve magát az elkészítést is.
+A program által csak olvasható lesz ez a JSON fájl, így az első verziókban
+nem lesz lehetőség a programon belülről módosítani a recepteket tartalmazó
+fájlt. Se törlésre, bővítésre, vagy hibajavításre nem lesz beépített módszer.
+Minden egyes az adatok tárolására használt JSON fájlon való módosítást
+kézzel, egy harmadik fél által készített program segítségével kell majd
+végrehajtani. Ez későbbi verzókban változhat, így azokban, ha lesznek,
+már nem lesz szükség külő program használatára, az adatok módosítására,
+vagy bevitelére.
 
 -Implementációs terv
 
