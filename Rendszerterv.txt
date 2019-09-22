@@ -1,3 +1,6 @@
+﻿Digitális receptválogatás
+
+-A rendszer célja
 
 A készítendő rendszer célja egy egyszerűen és könnyen kezelhető, olvasható
 recept tároló program elkészítése. A kész programnak meg kell felelnie a
@@ -103,6 +106,7 @@ A program megvalósítása a korábbi tervek és képernyőtervek alapján tört
 a betervezett programnyelv Java, a platformfüggetlensége, és támogatottsága miatt.
 A szoftver a későbbiekben bővíthető legyen, a modulok és a metódusok egyértelműek.
 
+
 -Tesztterv
 
 A tesztelés során ellenőrizzük, hogy a felhasználói felület megfelelően betöltődött,
@@ -115,6 +119,7 @@ mentett elemek. Recept választása esetén a kattintást a program feldolgozza,
 adott receptet megjeleníti hiánytalanul. Ha a fentiekkel nem egyezik meg a szoftver
 működése, akkor a teszt sikertelen. Ha minden ennek megfelelően működik, a teszt
 sikeres.
+
 
 -Telepítési terv
 
