@@ -8,11 +8,10 @@ A szoftver célja egy egyszerű felület szolgáltatása a felhasználók felé,
 amivel úgy érhetnek el adatokat, akár bonyolultabb háttérfolyamatokon át, 
 hogy közben semmilyen informatikai végezettséget és más segítséget ne 
 kelljen igénybe venniük.
-
 Éppen ezért a felhasználói felület legyen egyszerű, egyértelmű és könnyen
 használható, minden különösebb betanítás nélkül is. A felhasználói felületen
 a feliratok olvashatóan, magyarul jelenjenek meg. Előszőr az étel eredetét
-(magyaros, olaszt stb), utána magát az ételeket, végül a kész receptet
+(magyaros, olasz stb), utána magát az ételeket, végül a kész receptet
 kellene megjelenítenie a programnak. Mindezt két lenyíló listában, majd
 a receptet egy nagy, jól olvasható megjelenítő felületen, a listák alatt.
 
@@ -22,7 +21,6 @@ Papírra kiírt, könyvekben bejelölt és felcímkézett receptek egy helyen
 történő tárolása megnehezíti az emberek mindennapjait. A kikeresésük 
 hosszadalmas, és csak a tárolt helyről (pl. szekrényből, polcról) elérhető, 
 ha az emberek nem viszik magukkal a boltba, vagy írnak papírra bevásárlólistát.
-
 Ezek a módszerek megbízhatatlanok, illetve a receptek könnyen elveszhetnek
 a szekrényből. Esetleges megosztásuk is nehézkes, hiszen ilyenkor egy kézzel
 készített másolatot kell csinálni, aminél felmerülhetnek olvasási problémák
@@ -40,21 +38,33 @@ listában a kívánt recept megtalálása után. Könyen ki lehessen választani
 kívánt találatot, egy kattintás segítségével, majd egyértelműen és gyorsan 
 jelenjen meg a recept. A recept pontokban lehetne tagolt, így szemmel könnyen 
 követhető és feldolgozhatő formátumban jelenne meg az olvasó számára is.
-
 A későbbiekben, mesterséges inteligencia használatával, ajálnhatna egy 
 teljes menüt a program. Valamint a meglévő receptek, könnyed karbantartása
 se okozzon problémát. Illetve, bármikor lehessen további kategóriát, és
 recepteket csatolni a már meglévőekhez. Esetlegesen képeket is lehessen csatolni.
+Továbbá a menü összeállításánál lehetne egy olyan pont, ahol olyan ételeket ajánl,
+akik valamilyen ételérzékenységben, ételallergiában szenvednek, vagy olyan 
+felhasználóknak,akik egészségesebb ételeket készítenének. A mesterséges intelligenciát 
+és kisegítő lehetőségeket felhasználva segíthetne a program az olyan felhasználóknak,
+akik testi fogyatékossággal élnek. Lehetne ilyen a hangfelismerés, a program 
+felolvassa az adott receptet, vagy videókkal is lehetne segíteni a szoftvert használóknak. 
+A későbbiekben belső email-es rendszer is segíthetné a felhasználókat, 
+ha van valamilyen problémájuk, amit a "Segítség" pont alatt nem találnak meg. 
+Illetve nem csak problémák megoldására használhatnák hanem pozitiv, 
+vagy negatív kritikákkal is segíthetné majd a program fejlesztését.
 
 4.Jelenlegi üzleti folyamatok
 
 A jelenlegi folyamatok hosszadalmasak, hiszen a fehasználók papírra írják fel 
 gondolataikat. Ez nem mindig átlátható, ha kihagynak egy lépést utólag nem 
-javítható. Mások számára előfordulhat, hogy olvashatatlan. Könnyen megsérület a 
+javítható. Mások számára előfordulhat, hogy olvashatatlan. Könnyen megsérülhet a 
 papír felülete, elmosódhat, vagy kikophat az írás.
-
 Jelenlegi másolatkészítés is időigényes, és sok időt vesz el a normális
 munkavégzéstől, ami negatívan befolyásolja az emberek munkavégzését.
+A mostani folyamatok azon kívül, hogy időigényesek, nem környezettudatosak, 
+nagyon sokba kerül az előállításuk. Így pénzügyileg nem éri meg, nem gazdaságos.
+Továbbá , ha nincsenek rendszerezve az plusz munkaidőt és munkavégzést eredményez 
+és könnyen eltűnhetnek. 
 
 5.Igényelt üzleti folyamatok
 
@@ -62,3 +72,14 @@ A legfontosabb a könnyen kezelhetőség, akár az informatikában és az inform
 eszközök használatában nem jártas felhasználóknak is. Az egyszerűségével és 
 praktikusságával a használók könnyen megismerhetik, megkedvelhetik és 
 megszokhatják kezelését. 
+A másik legfontosabb pont a felhasználó és a szoftver között a megbízhatóság. 
+A rendszernek biztosítania kell arról a program felhasználóját, hogy nem ad ki és
+nem használ fel semmilyen adatot. Lehetőséget adhatna a regisztrációra, 
+hogy a felhasználó elmentse az általa kiválasztott receptet és később tudja használni. 
+A program egyik pontja lehetne a "Segítség", ebben kell leírni a szoftverrel kapcsolatos dolgokat, 
+ha valaki most használja először vagy valamilyen probléma merülne fel. 
+Így akiknek nincs semmilyen tapasztalatuk az elektronikai eszközök és a rajtuk futó programok használatában, 
+könnyedén eligazodnaka kezelési felületen.
+
+
+
