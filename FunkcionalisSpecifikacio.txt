@@ -9,12 +9,25 @@ amivel úgy érhetnek el adatokat, akár bonyolultabb háttérfolyamatokon át,
 hogy közben semmilyen informatikai végezettséget és más segítséget ne 
 kelljen igénybe venniük.
 
+Éppen ezért a felhasználói felület legyen egyszerű, egyértelmű és könnyen
+használható, minden különösebb betanítás nélkül is. A felhasználói felületen
+a feliratok olvashatóan, magyarul jelenjenek meg. Előszőr az étel eredetét
+(magyaros, olaszt stb), utána magát az ételeket, végül a kész receptet
+kellene megjelenítenie a programnak. Mindezt két lenyíló listában, majd
+a receptet egy nagy, jól olvasható megjelenítő felületen, a listák alatt.
+
 2.Jelenlegi helyzet
 
-Papírra kiírt, könyvekben bejelölt és felcímkézett receptek eg helyen 
+Papírra kiírt, könyvekben bejelölt és felcímkézett receptek egy helyen 
 történő tárolása megnehezíti az emberek mindennapjait. A kikeresésük 
 hosszadalmas, és csak a tárolt helyről (pl. szekrényből, polcról) elérhető, 
 ha az emberek nem viszik magukkal a boltba, vagy írnak papírra bevásárlólistát.
+
+Ezek a módszerek megbízhatatlanok, illetve a receptek könnyen elveszhetnek
+a szekrényből. Esetleges megosztásuk is nehézkes, hiszen ilyenkor egy kézzel
+készített másolatot kell csinálni, aminél felmerülhetnek olvasási problémák
+a másik fél részéről. Továbbá egy főnél többnek való továbbítása több 
+problémát is felvethet, az időigényességről és nem is beszélve.
 
 3.Vágyálom rendszer
 
@@ -28,12 +41,20 @@ kívánt találatot, egy kattintás segítségével, majd egyértelműen és gyo
 jelenjen meg a recept. A recept pontokban lehetne tagolt, így szemmel könnyen 
 követhető és feldolgozhatő formátumban jelenne meg az olvasó számára is.
 
+A későbbiekben, mesterséges inteligencia használatával, ajálnhatna egy 
+teljes menüt a program. Valamint a meglévő receptek, könnyed karbantartása
+se okozzon problémát. Illetve, bármikor lehessen további kategóriát, és
+recepteket csatolni a már meglévőekhez. Esetlegesen képeket is lehessen csatolni.
+
 4.Jelenlegi üzleti folyamatok
 
 A jelenlegi folyamatok hosszadalmasak, hiszen a fehasználók papírra írják fel 
 gondolataikat. Ez nem mindig átlátható, ha kihagynak egy lépést utólag nem 
 javítható. Mások számára előfordulhat, hogy olvashatatlan. Könnyen megsérület a 
 papír felülete, elmosódhat, vagy kikophat az írás.
+
+Jelenlegi másolatkészítés is időigényes, és sok időt vesz el a normális
+munkavégzéstől, ami negatívan befolyásolja az emberek munkavégzését.
 
 5.Igényelt üzleti folyamatok
 
