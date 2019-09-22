@@ -1,4 +1,3 @@
--A rendszer célja
 
 A készítendő rendszer célja egy egyszerűen és könnyen kezelhető, olvasható
 recept tároló program elkészítése. A kész programnak meg kell felelnie a
@@ -16,6 +15,25 @@ illetve a hozzájuk szükséges hozzávalók módosítására, javítására, va
 az esetleges bővítésére is. Továbbá ezen receptek harmadik félnek való
 küldésére is, akár e-mail formátumában.
 
+A Digitális receptválogatás egy olyan szoftver, ami biztosítja a receptek 
+gyors és gördülékeny elérését. A program fő funkciója a keresés és a rövid
+válaszidő. A szoftver a főzni vágyóknak készül, akik nem tudnak, vagy nem
+akarnak mindent papíron tárolni, és elegük van a lassú manuális folyamatokból.
+Megj.: A továbbiakban a program kiegészülhet további funkciókkal, mint például
+az új receptek feltöltése, törlése és szerkesztése.
+
+A program azért készülne el, hogy minimálissá csökkenthessük a keresés 
+folyamatát. A Digitális receptválogatáshoz szükséges folyamatok, a program
+megnyitása, betöltése. Ezután a felhasználói felületen megjelenik egy lenyíló
+lista, amiből kategóriát választhat. A kategória kiválasztása után egy következő
+listából választhatja ki, és böngészhet a receptek között. Az itt megjelenő
+receptek listája a kategória kiválasztása után válik kattinthatóvá. A rendszer
+azután fogja megejelíteni a kiválasztott receptet, miután a felhasználó választott
+és kattintott. Amíg ez nem történik meg, a felhasználó nem fogja látni a receptet
+teljes egészében. Ha a user másik kategóriátválaszt, akkor más receptek fognak
+megjelenni a listában. A kategorizálással a használók még több időt spórolhatnak,
+akkor is ha keresésük célirányos, akkor is, ha csak böngésznek a választási 
+lehetőségek között. 
 
 -Üzleti folyamatok modellje
 
@@ -81,12 +99,34 @@ vagy bevitelére.
 
 -Implementációs terv
 
+A program megvalósítása a korábbi tervek és képernyőtervek alapján történik. Ehhez
+a betervezett programnyelv Java, a platformfüggetlensége, és támogatottsága miatt.
+A szoftver a későbbiekben bővíthető legyen, a modulok és a metódusok egyértelműek.
 
 -Tesztterv
 
+A tesztelés során ellenőrizzük, hogy a felhasználói felület megfelelően betöltődött,
+a lenyíló listák, a gombok és a kattintható felületek megfelelően működnek.
+Ha a felület betöltött, a kategóriákhoz tartozó lenyílólistát vizsgáljuk, megjelenik-e 
+minden opció, amiket a fejlesztés során implementáltak. Az opciók kiválaszthatóak,
+a szűrő ezekre megfelelően működik, a kategóriáknak megfelelő receptek jelennek
+meg. A listát is leellenőrizzük, megegyeznek-e a megjelelő receptek és a tárolóba
+mentett elemek. Recept választása esetén a kattintást a program feldolgozza, az
+adott receptet megjeleníti hiánytalanul. Ha a fentiekkel nem egyezik meg a szoftver
+működése, akkor a teszt sikertelen. Ha minden ennek megfelelően működik, a teszt
+sikeres.
 
 -Telepítési terv
+
+A program első verziójában a szoftver csak lokálisan működne, így a felhasználó
+a telepítés után az éppen használt eszközön tudná igénybe venni a szolgáltatást.
+Majd a webes adattárolás segítségével a felhasználók internetkapcsolat segítségével
+több eszközről (amin a program telepítve van)is hozzáférhetnek az adatokhoz.
 
 
 -Karbantartási terv
 
+A szoftver internetkapcsolat segítségével a telepítési hellyel megegyező helyre
+kerülnének ki a frissítések, és az új verziók. A teszttervek az új igények alapján
+készülnének el. A regressziós tesztet minden frissítés és új verzió alkalmával 
+elvégezzük. Ezek a a teszttervek menüpontban olvashatóak.
