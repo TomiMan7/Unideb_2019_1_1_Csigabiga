@@ -40,12 +40,48 @@ lehetőségek között.
 
 -Üzleti folyamatok modellje
 
+A jelenlegi folyamatok nem felhasználó központú, mivel a papíron lévő
+receptek írása,másolása és olvasása időpazarkló,megterhekő is lehet.
+Üzleti folyamatnak nevezzük például, hogy a felhasználó használja a 
+digitális receptválogatást. Elindítja, kiválasztja milyen eredetű ételt szeretne
+készíteni, majd a neki tetsző receptet elkészíti. Ehhez előbb le kell töltenie 
+a számítógépére a programot. A program így szolgáltatást nyújt a felhasználónak, 
+nem kell a fent említett papíron vagy könyvben lévő recepteket megkersenie, ha el nem veszett. 
+Ráadásul több választék is lehet, több mindent tud adni annak aki a programot használja, 
+ezzel időtspórolva és pénzt megtakarítva. Az üzleti modellt leírhatjuk UML nyelven, 
+illetve a legújabb irányzat szerint BPMN nyelven is. Az üzleti szereplő, 
+maga a felhasználó(a felhasználó lehet egy kezdő szakács, háziasszony, baárki, 
+aki letölti és használni kezdi a szoftvert)aki egy külső szereplő és 
+kapcsolatban van az üzleti folyamatnak, a része annak. Továbbá az üzleti folyamatok 
+része az üzleti entitás, ami ebben a szoftverben a receptek. Olyan dolog, 
+fogalom amit a folyamat során használnak.
 
 -Követelmények
 
+A szoftvernek alapvető funkcionális és nem funkcionális követelményeknek 
+kell teljesülnie. A kezelő felületnek könnyen kezelhetőnek kell lennie, 
+hogyaz informatikában és az informatikai eszközökben nem jártas felhasználók 
+is tudják használni. A recepteknek jól láthatóan, olvashatóan, magyarul kell 
+megjelenniük. Először a felhasználónak legyen lehetősége kiválasztani, hogy 
+milyen nemzetiségű ételt szeretne elkészíteni, és utána tudjon keresni a 
+receptekben. A programnak a telepítéshez szükséges tárhelye legyen kicsi, 
+és élő intenet kapcsolat mellett lehet csak használni, mivel egy JSON fájlból
+kéri majd le a szoftver az adatokat(recepteket). A megjelenésnek számítógépen 
+olyannak kell lennie, hogy megfelelő legyen a felhasználónak, azonban minél 
+kevesebb adatforgalmat emésszen fel.
 
 -Funkcionális terv
 
+A feladat egy számítógépen futó receptválogatási program megtervezése.
+A program kérje le egy JSON fájlból a keresési és kiválasztási 
+feltételeknek megfelelő receptet, mikor a felhasználó éppen a szoftvert használja.
+A rendszert három szereplőre lehet felbontani, a megrendelőre, felhasználókra
+és a programozókra. A fejlesztők megtervezik és implementálják a megrendelő igényeit. 
+Majd a továbbiakban a felhasználók igényei és észrevételei szerint fogják a 
+programozók fejleszteni a felületet. A felület egyszerűsége miatt ne legyen benne
+több egymásbaágyazott menü, hanem egymástól független lenyíló lista legyen 
+kétfajta nemzeti konyha névvel,utána a felhasználó kiválasztja az egyiket és 
+ahhoz tartozó recepteket kapja meg. 
 
 -Fizikai környezet
 
@@ -85,6 +121,16 @@ vagy egy gomb megnyomása után is, ez fejlesztési időben dől el.
 
 -Architekturális terv
 
+A program kis tárigényű és internetkapcsolat szükséges, hogy a felhasználók 
+használni tudják. A receptek egy Json fájlban találhatóak, de a későbbi lehetséges
+fejlesztés során egy távoli adatbázisba lehet majd feltölteni az adatokat, 
+és bővíteni receptekkel,adott esetben igény szerint más nemzeti ételekkel. 
+A későbbiekben más változások isvárhatóak, több menüpont, választék, de 
+továbbra is egyszerűen, átláthatóan, hogy a program használatában nem jártas 
+felhasználók ugyanúgy tudják kezelni. A szoftver biztonsága és megbízhatósága 
+nem függ külső tényezőktől. A felhasználók számítógépeinek tűzfala elég védelmet nyújt, 
+mivel a program használója csak a digitális receptválogatások közül keres,
+és nem jön létre adatcsere más felhasználókkal.
 
 -Adatbázis terv
 
