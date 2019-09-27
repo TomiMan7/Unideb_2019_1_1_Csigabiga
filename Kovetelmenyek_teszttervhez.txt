@@ -1,0 +1,22 @@
+﻿- A program megfelelően elindul, a felület beölt
+- Az elemek tartalmazzák a feliratokat
+- A legördülő listák kattinthatóak, használhatóak
+- Az első legördülő lista tartalmazza a kívánt elemeket
+- Az első legördülő lista elemei kiválaszthatóak
+- Az első legördülő listában lévő választás után a második
+	legördülő listában megjelennek a kívánt elemek
+- A második legördülő lista elemei nem választhatók, és
+	nem is jelennek meg, az első listából való választás
+	nélkül
+- (Ha az elsőben választottunk) A második legördülő listában
+	az elemek választhatóak
+- (Ha az elsőben választottunk) A második legördülő lisából
+	választás után a kiválasztott elem megjelenik
+- A megjelenő elemek a listában és a fieldben is megegyeznek
+	a json-ban tároltakkal
+- Minden a kiválasztott elemhez tartozó adat megjelenik
+- Másik kategória választása esetén a második legörülő lista
+	tartalma is megváltozik
+- Új recept választása esetén az új recept megjelenik, az
+	előző eltűnikés nem íródnak egymásra
+- A kiírt szöveg nem módosítható
