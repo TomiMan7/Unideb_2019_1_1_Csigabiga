@@ -89,15 +89,23 @@ A program fejlesztéséhez legalább 8-as verziójú Javat fogunk használni.
 Ezzel tudjuk elérni, hogy a kívánt platformokra egy verzió fejlesztése
 mellett ki tudjuk adni a programot. Illetve, a platformok között az
 átjárás biztosított legyen.
+
 Ezek a platformok a következőek:
 -Windows 7/8/8.1/10
 -Linux
 -MacOS.
+
 Tekintve, hogy a programnak egyáltalán nem szerves része, az ügyfelek közötti
 adatcsere, így a helyi hálózat állapota, a tűzfal, illetve a nyitott portok
 minket ebben az esetben nem érdekelnek. Esetlegesen egy későbbi verzióban igen.
 Külsőleg megvásárolt komponenseket nem fogunk használni, minden a program
 által használt eszközt, itt helyben fogunk kifejleszteni.
+
+A program futtatásához szükséges rendszer követelmények alacsonyak. Az
+adott számítógépen futó operációs rendszer követelményein felül, maximum
+további 1Gb RAM szükséges a program futtatásához.
+A program tárolásához szükséges helyigény a használt JSON fájl méretétől
+függően változik.
 
 
 -Absztrakt domain modell
@@ -106,6 +114,7 @@ A program felépítese nagyon minimalisztikus, csak két egymás mellett
 elhelyezett, lenyíló listából áll, ezek alatt helyezkedik el az a
 szövegdoboz, ami a kiválasztott étel receptjét, és hozzávalóit fogja
 tartalmazni.
+
 Az első lenyíló lista tartalmazza a JSON fájlban tárolt ételek eredetét,
 mint például magyaros vagy olasz. A második lenyíló lista tartalmazza
 az ehhez a kategóriához tartozó ételeket. A második lenyíló lista, csak
@@ -118,6 +127,8 @@ szövegdobozban! Előtte egy információs szöveget: "Kérem válasszon ételt!
 tartalmazzon!
 A recept megjelenítése történhet az étel kiválasztása után egyből automatikusan,
 vagy egy gomb megnyomása után is, ez fejlesztési időben dől el.
+
+
 
 -Architekturális terv
 
@@ -139,7 +150,7 @@ kell majd eltárolni, mind az étel típusokat, azoknak a neveit, illetve
 az elkészítésükhöz használandó alapanyagokat,illetve magát az elkészítést is.
 A program által csak olvasható lesz ez a JSON fájl, így az első verziókban
 nem lesz lehetőség a programon belülről módosítani a recepteket tartalmazó
-fájlt. Se törlésre, bővítésre, vagy hibajavításre nem lesz beépített módszer.
+fájlt. Se törlésre, bővítésre, vagy hibajavításra nem lesz beépített módszer.
 Minden egyes az adatok tárolására használt JSON fájlon való módosítást
 kézzel, egy harmadik fél által készített program segítségével kell majd
 végrehajtani. Ez későbbi verzókban változhat, így azokban, ha lesznek,

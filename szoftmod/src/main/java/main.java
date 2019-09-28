@@ -1,20 +1,28 @@
 import java.io.FileNotFoundException;
+
 import java.util.Map;
 import java.util.Vector;
+
 import javafx.application.Application;
+
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+
+import javafx.geometry.Pos;
+
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
 
+import javafx.stage.Stage;
 
 public class main extends Application implements EventHandler<ActionEvent> {
 
     static ComboBox Kajatipus = new ComboBox();
     static ComboBox Kajanev = new ComboBox();
+
     static TextField Receptek = new TextField();
+
     static Label label = new Label("Az Ön által választott étel receptje:");
 
     public Vector<Map<String, String>> eteltipusok = new Vector();
@@ -45,6 +53,8 @@ public class main extends Application implements EventHandler<ActionEvent> {
         Kajanev.setLayoutX(360);
         Kajanev.setLayoutY(10);
 
+        Receptek.setAlignment(Pos.TOP_LEFT);
+        Receptek.setPrefWidth(10);
         Receptek.setPrefSize(750,450);
         Receptek.setLayoutX(30);
         Receptek.setLayoutY(150);
