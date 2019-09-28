@@ -1,0 +1,27 @@
+{
+"eteltipusok": [
+	
+{"tipus": "magyar",
+"nev": "gulyas",
+"recept":"gulyas recept"
+},
+	
+{
+"tipus": "magyar",
+"nev": "porkolt",
+"recept":"porkolt recept"
+},
+
+{
+"tipus": "olasz",
+"nev": "pizza",
+"recept":"pizza recept"
+},
+
+{
+"tipus": "olasz",
+"nev": "lassagne",
+"recept":"lassagne recept"
+}
+   ]
+}
