@@ -149,8 +149,11 @@ public class main extends Application implements EventHandler<ActionEvent> {
                  * Uj elemekkel valo feltoltes
                  */
                 Kajanev.getItems().addAll(
-                        "gulyas",
-                        "porkolt"
+                        "Gulyasleves",
+                        "Sertesporkolt",
+                        "Toltott kaposzta",
+                        "Finomfozelek",
+                        "Turos csusza"
                 );
             }
 
@@ -158,8 +161,11 @@ public class main extends Application implements EventHandler<ActionEvent> {
             {
                 Kajanev.getItems().clear();
                 Kajanev.getItems().addAll(
-                        "pizza",
-                        "lassagne"
+                        "Pizza",
+                        "Lassagne",
+                        "Ravioli",
+                        "Bolognai spagetti",
+                        "Carbonara"
                 );
             }
         }
