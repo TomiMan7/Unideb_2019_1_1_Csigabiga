@@ -25,6 +25,11 @@ public class main extends Application implements EventHandler<ActionEvent> {
     static ComboBox Kajanev = new ComboBox();
 
     /**
+     * A gomb deklaracioja
+     */
+    static Button gomb = new Button("Segítség");
+
+    /**
      * Receptmezo deklaracioja
      */
     static TextField Receptek = new TextField();
@@ -74,6 +79,17 @@ public class main extends Application implements EventHandler<ActionEvent> {
         primaryStage.show();
 
         /**
+         * A gomb meretenek beallitasa
+         */
+        gomb.setPrefSize(100,20);
+
+        /**
+         * A gomb helyének megadasa
+         */
+        gomb.setLayoutX(680);
+        gomb.setLayoutY(10);
+
+        /**
          * Lenyilo lista meretnek beallitasa
          */
         Kajatipus.setPrefSize(300,20);
@@ -117,9 +133,12 @@ public class main extends Application implements EventHandler<ActionEvent> {
                  "olasz"
         );
 
+        //gomb.setOnAction(e -> Controller.Segitseg());
+
         /**
          * GUI elemek hozzaadas az ablakhoz
          */
+        layout.getChildren().add(gomb);
         layout.getChildren().add(Kajatipus);
         layout.getChildren().add(Kajanev);
         layout.getChildren().add(Receptek);
@@ -128,12 +147,21 @@ public class main extends Application implements EventHandler<ActionEvent> {
         /**
          * User input kezelesenek megadasa
          */
+        gomb.setOnAction(this);
         Kajatipus.setOnAction(this);
         Kajanev.setOnAction(this);
     }
 
     @Override
     public void handle(ActionEvent event) {
+
+        /**
+         * Ha a gombon tortent esemeny, akkor hivja meg a segitseg fgv-t
+         */
+        if (event.getSource()==gomb){
+            Controller.Segitseg();
+        }
+
         /**
          * User input helyenek megszerzese
          */
@@ -169,6 +197,7 @@ public class main extends Application implements EventHandler<ActionEvent> {
                 );
             }
         }
+
 
         try {
             if (event.getSource() == Kajanev) {

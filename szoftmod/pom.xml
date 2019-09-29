@@ -266,10 +266,14 @@
         <developer>
             <name>Löki Tamás</name>
         </developer>
+        <developer>
+            <name>Gábor Dóra</name>
+        </developer>
     </developers>
     <contributors>
         <contributor>
             <name>Löki Tamás</name>
         </contributor>
     </contributors>
+
 </project>
