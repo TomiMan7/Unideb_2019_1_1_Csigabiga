@@ -2,26 +2,62 @@
 "eteltipusok": [
 	
 {"tipus": "magyar",
-"nev": "gulyas",
-"recept":"gulyas recept gulyas recept gulyas recept gulyas recept"
+"nev": "Gulyasleves",
+"recept":"A gulyasleves receptjanek linkje: https://www.nosalty.hu/recept/tradicionalis-gulyasleves"
 },
 	
 {
 "tipus": "magyar",
-"nev": "porkolt",
-"recept":"porkolt recept"
+"nev": "Sertasporkolt",
+"recept":"A sertesporkolt receptjenek linke: https://www.nosalty.hu/recept/sertesporkolt"
+},
+
+{
+"tipus": "magyar",
+"nev": "Toltott kaposzta",
+"recept":"A toltott kaposzta receptjenek linke: https://www.nosalty.hu/recept/sertesporkolt"
+},
+
+{
+"tipus": "magyar",
+"nev": "Finomfozelek",
+"recept":"A finomfozelek receptjenek linke: http://www.mindmegette.hu/finomfozelek-egyszeruen.recept/"
+},
+
+{
+"tipus": "magyar",
+"nev": "Turos csusza",
+"recept":"A turos csusza receptjenek linke: http://www.mindmegette.hu/hagyomanyos-turos-csusza.recept/"
 },
 
 {
 "tipus": "olasz",
-"nev": "pizza",
-"recept":"pizza recept"
+"nev": "Pizza",
+"recept":"A pizza receptjenek linkje: https://www.nosalty.hu/recept/eredeti-olasz-pizza"
 },
 
 {
 "tipus": "olasz",
-"nev": "lassagne",
-"recept":"lassagne recept"
+"nev": "Lassagne",
+"recept":"A lassagne receptjenek linkje: http://www.mindmegette.hu/lasagne.recept/"
+}
+
+{
+"tipus": "olasz",
+"nev": "Ravioli",
+"recept":"A ravioli receptjenek linkje: http://www.mindmegette.hu/spenottal-toltott-ravioli.recept/"
+}
+
+{
+"tipus": "olasz",
+"nev": "Bolognai spagetti",
+"recept":"A bolognai spagetti receptjenek linkje: http://www.mindmegette.hu/bolognai-spagetti-iv.recept/"
+}
+
+{
+"tipus": "olasz",
+"nev": "Carbonara",
+"recept":"A carbonara receptjének linkje: http://www.mindmegette.hu/romai-carbonara.recept/"
 }
    ]
 }
