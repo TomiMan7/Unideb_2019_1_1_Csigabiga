@@ -14,3 +14,5 @@ segítõ szöveg?
 -Ételtípus váltás esetén megfelelõ étel nevek jelennek meg a másik listában?
 
 -Megjelenik-e a megfelelõ recept?
+
+-A segítség gomb megfelelõen megjeleníti-e a kívánt szöveget?
