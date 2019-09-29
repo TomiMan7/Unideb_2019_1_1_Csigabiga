@@ -1,0 +1,16 @@
+Az alábbi dokumentum tartalmazza a Digitális receptválogatás teszttervet
+
+A felhasználói felületek tesztelésének menete:
+
+-Megjelenik-e helyesen a lenyíló listákban és a recept helyén a tájékozódást
+segítõ szöveg?
+
+-A megfelelõ lenyíló listában megjelenik-e a megfelelõ szöveg:
+Ételtípus:
+Ételnév:
+
+-Ételtípus váltás kivitelezhetõ-e:
+
+-Ételtípus váltás esetén megfelelõ étel nevek jelennek meg a másik listában?
+
+-Megjelenik-e a megfelelõ recept?
