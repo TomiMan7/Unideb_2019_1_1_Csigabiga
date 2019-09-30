@@ -3,16 +3,17 @@ Az alábbi dokumentum tartalmazza a Digitális receptválogatás teszttervet
 A felhasználói felületek tesztelésének menete:
 
 -Megjelenik-e helyesen a lenyíló listákban és a recept helyén a tájékozódást
-segítõ szöveg?
+segítõ szöveg? Igen
 
 -A megfelelõ lenyíló listában megjelenik-e a megfelelõ szöveg:
-Ételtípus:
-Ételnév:
+Ételtípus: Igen, magyaros és olasz.
+Ételnév: Igen, (magyaros)gulyáásleves, sertéspörkölt, tölött káposzta, finomfõzelék és túrós csusza.
+		(olaszos)Pizza,lassagne, bolognai spagetti, ravioli, carbonara.
 
--Ételtípus váltás kivitelezhetõ-e:
+-Ételtípus váltás kivitelezhetõ-e: Igen.
 
--Ételtípus váltás esetén megfelelõ étel nevek jelennek meg a másik listában?
+-Ételtípus váltás esetén megfelelõ étel nevek jelennek meg a másik listában? Igen.
 
--Megjelenik-e a megfelelõ recept?
+-Megjelenik-e a megfelelõ recept? Nem a recept jelenik meg, hanem a recepthez tartozó link. 
 
--A segítség gomb megfelelõen megjeleníti-e a kívánt szöveget?
+-A segítség gomb megfelelõen megjeleníti-e a kívánt szöveget? Igen.
