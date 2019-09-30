@@ -169,6 +169,8 @@ public class main extends Application implements EventHandler<ActionEvent> {
          */
         if (event.getSource() == Kajatipus) {
 
+            Receptek.clear();
+            Receptek.setPromptText("Kérem válasszon ételt a recept megjelenítéséhez!");
             if(Kajatipus.getValue() == "magyaros")
             {
                 /**

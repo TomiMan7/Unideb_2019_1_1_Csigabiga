@@ -27,6 +27,8 @@ nem is lehet választani .
 	-"Kérem válasszon ételtípust elõbb!"
 		-"magyaros"
 		-"olasz"
+		-"kinai"
+		-"indiai"
 	-"Étel típusok"
 		-"Gulyasleves"
 		-"Sertesporkolt"
@@ -38,12 +40,51 @@ nem is lehet választani .
 		-"Bolognai spagetti"
 		-"Ravioli"
 		-"Carbonara"
+		-"Piritott teszta"
+		-"Mezes csirke"
+		-"Eros-savanyu leves"
+		-"Tavaszi tekercs"
+		-"Csirke chow-mein"
+		-"Currys csirke ananasszal"
+		-"Tavaszi tekercs"
+		-"Naan"
+		-"Lencses-borsos dahl"
+		-"Khir"
 
 - Megfelelõ receptek megjelenítésének manuális ellenõrzése
 Egy adott recept kiválasztása esetén, a hozzá tartozó linket jeleníti meg. 
 A linket megnyitva olvashatjuk a receptet. Más recept választása esetén, 
 nincs olyan hiba, hogy egymásra írodik a szöveg. Új elem választásakor az elõzõ
 törlõdik.
+
+Egyedi esetek tesztelése:
+-A magyaros ételek tesztesetei:
+Az étel tipusok listából a magyaros típust kiválasztva megfelelõen betöltõdnek a
+hozzá rendelt ételek:
+		-"Gulyasleves"
+		-"Sertesporkolt"
+		-"Toltott kaposzta"
+		-"Finomfozelek"
+		-"Turos csusza"
+
+Ezen belüli egyedi esetek:
+	-A gulyáslevest kiválasztva megfelelõen megjelenik a kívánt recept.
+	-A sertéspörköltet kiválasztva nem megfelelõen jelent meg a kívánt recept. Ez a bug azzonnal javítva lett, így már
+tökéletesen mûködik.
+	-A töltött káposztát kiválasztva megfelelõen megjelenik a kívánt recept.
+	-A finomfõzeléket kiválasztva megfelelõen megjelenik a kívánt recept.
+	-A túrós csuszát kiválasztva megfelelõen megjelenik a kívánt recept.
+
+-Az olasu ételek tesztesetei:
+Az étel tipusok listából a magyaros típust kiválasztva megfelelõen betöltõdnek a
+hozzá rendelt ételek:
+		-"Pizza"
+		-"Lassagne"
+		-"Bolognai spagetti"
+		-"Ravioli"
+		-"Carbonara"
+
+	-A pizzát kiválasztva megfelelõen megjelenik a kívánt recept.
 
 -Egyéb UI elem tesztelése
 A "Segítség" gomb a legördülõ listákkal egyvonalban jelenik meg, jól látható.
