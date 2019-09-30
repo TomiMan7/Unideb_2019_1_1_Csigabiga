@@ -1,0 +1,51 @@
+Az alábbi dokumentum tartalmazza a Digitális receptválogatás tesztelését és annak leírását
+
+A program megfelelõen, hibamentesen elindul, majd a felület betölt. 
+A felület a képernyõterv szerint jelenik meg egy "Segítség" gomb bõvítéssel. 
+Két legördulõ lista látható, amik tartalmazzák a feliratokat: "Kérem válasszon 
+étel típust elõbb!", "Étel típusok ". Ezek kattinthatóak, kattintásra a 
+megfelelõ elemeketjeleníti meg. Az eslõ legördülö lista tartalmazza a 
+kívánt elemeket :"magyaros", "olasz". Ezek kiválaszthatóak, és választás 
+után a második legördülõ lista elemei jelennek meg. A második legördülõ 
+lista elemei nem választhatók, és nem is jelennek meg, az elsõ listából 
+való választás nélkül. Az elsõ legördülõ lista egyik elemének kiválasztása 
+után, a második legördülõ listában az elemek választhatóak lesznek,majd
+kiválasztás után megjelenik az adott ételhez tartozó recept linkje, 
+amit egy böngészõbe másola lehet használni. Az elsõ legördülõ listában
+másik kategória választása esetén , a másodikban is a lista tartalma 
+megváltozik. Új elem (ételnév) választása esetén, az ahhoz tartozó recept
+linkje jelenik meg. Ezek nem íródnak egymásra, másik recept választása esetén
+az elõzõ törlödik. A kiírt szöveg nem módosítható. 
+
+A tesztelés manuálisan történt.
+
+- A lenyíló listák manuális tesztelése
+A lenyíló listák kattinthatóak, láthatóak, tartalmazza a kívánt elemeket, 
+és a hozzájuk tartozó feliratokat. Valamint teljesíti a feltételt, 
+hogy amíg nincs az elsõ legördülõ listából elem kiválasztva, addig a másodikból 
+nem is lehet választani .
+	-"Kérem válasszon ételtípust elõbb!"
+		-"magyaros"
+		-"olasz"
+	-"Étel típusok"
+		-"Gulyasleves"
+		-"Sertesporkolt"
+		-"Toltott kaposzta"
+		-"Finomfozelek"
+		-"Turos csusza"
+		-"Pizza"
+		-"Lassagne"
+		-"Bolognai spagetti"
+		-"Ravioli"
+		-"Carbonara"
+
+- Megfelelõ receptek megjelenítésének manuális ellenõrzése
+Egy adott recept kiválasztása esetén, a hozzá tartozó linket jeleníti meg. 
+A linket megnyitva olvashatjuk a receptet. Más recept választása esetén, 
+nincs olyan hiba, hogy egymásra írodik a szöveg. Új elem választásakor az elõzõ
+törlõdik.
+
+-Egyéb UI elem tesztelése
+A "Segítség" gomb a legördülõ listákkal egyvonalban jelenik meg, jól látható.
+Használható, mivel kattintás után egy külön ablakban felhozza a hozzá adott
+szöveget, útmutatást. 
