@@ -85,6 +85,8 @@ hozzá rendelt ételek:
 		-"Carbonara"
 
 	-A pizzát kiválasztva megfelelõen megjelenik a kívánt recept.
+	-A lassagne-t kiválasztva megfelelõen megjelenik a kívánt recept.
+	-A bolognai spagettit kiválasztva megfelelõen megjelenik a kívánt recept.
 
 -Egyéb UI elem tesztelése
 A "Segítség" gomb a legördülõ listákkal egyvonalban jelenik meg, jól látható.
