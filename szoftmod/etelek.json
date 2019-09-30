@@ -58,6 +58,66 @@
 "tipus": "olasz",
 "nev": "Carbonara",
 "recept":"A carbonara receptjének linkje: http://www.mindmegette.hu/romai-carbonara.recept/"
+},
+
+{
+"tipus": "kinai",
+"nev": "Piritott teszta",
+"recept":"A piritott teszta receptjenek linkje: http://www.mindmegette.hu/csilis-piritott-teszta.recept/"
+},
+
+{
+"tipus": "kinai",
+"nev": "Mezes csirke",
+"recept":"A mezes csirke receptjenek linkje: http://www.mindmegette.hu/kinai-mezes-csirke-egyszeruen.recept/"
+},
+
+{
+"tipus": "kinai",
+"nev": "Eros-savanyu leves",
+"recept":"Az eros-savanyu leves receptjenek linkje: http://www.mindmegette.hu/kinai-eros-savanyu-leves.recept/"
+},
+
+{
+"tipus": "kinai",
+"nev": "Tavaszi tekercs",
+"recept":"A tavaszi tekercs receptjenek linkje: http://www.mindmegette.hu/tavaszi-tekercs-csirkehussal-toltve.recept/"
+},
+
+{
+"tipus": "kinai",
+"nev": "Csirke chow-mein",
+"recept":"A csirke chow-mein receptjenek linkje: http://www.mindmegette.hu/csirke-chow-mein-ahogy-sylvia-kesziti.recept/"
+},
+
+{
+"tipus": "indiai",
+"nev": "Currys csirke ananasszal",
+"recept":"A currys csirke ananasszal receptjenek linkje: http://www.mindmegette.hu/currys-csirke-ananasszal.recept/"
+},
+
+{
+"tipus": "indiai",
+"nev": "Tavaszi tekercs",
+"recept":"A tavaszi tekercs receptjenek linkje: http://www.mindmegette.hu/tavaszi-tekercs-csirkehussal-toltve.recept/"
+},
+
+{
+"tipus": "indiai",
+"nev": "Naan",
+"recept":"A naan receptjenek linkje: http://www.mindmegette.hu/indiai-lepenykenyer-naan.recept/"
+},
+
+{
+"tipus": "indiai",
+"nev": "Lencses-borsos dahl",
+"recept":"A lencses-borsos dahl receptjenek linkje: http://www.mindmegette.hu/dahl.recept/"
+},
+
+{
+"tipus": "indiai",
+"nev": "Khir",
+"recept":"A khir receptjenek linkje: http://www.mindmegette.hu/khir-indiai-edesrizs.recept/"
 }
    ]
 }

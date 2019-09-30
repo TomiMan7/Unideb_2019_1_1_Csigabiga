@@ -53,7 +53,7 @@ public class Controller {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Segitseg");
         alert.setHeight(500);
-        alert.setContentText("Elsősorban kérem válassza ki, hogy milyen ételtípust szeretne (magyar vagy olasz).\n"+
+        alert.setContentText("Elsősorban kérem válassza ki, hogy milyen ételtípust szeretne (magyar, olasz, kínai és indiai).\n"+
                 "Kattintson rá, majd ezután megtudja nézni az adott típushoz tartozó ételeket.\n Válasszon ki egyet,"+
                 "majd kattintson rá a kivánt ételnek a nevére, és láthatja a hozzá tartozó receptnek a linkjét.\n" +
                 "Nyissa meg böngészőben(Mozilla Firefox vagy Google Chrome), és már láthatja is a receptleírást.\n"+

@@ -130,7 +130,9 @@ public class main extends Application implements EventHandler<ActionEvent> {
          */
         Kajatipus.getItems().addAll("Kérem válasszon étel tipust!",
                 "magyaros",
-                 "olasz"
+                 "olasz",
+                 "kinai",
+                "indiai"
         );
 
         //gomb.setOnAction(e -> Controller.Segitseg());
@@ -185,7 +187,7 @@ public class main extends Application implements EventHandler<ActionEvent> {
                 );
             }
 
-            else if(Kajatipus.getValue() == "olasz")
+            if(Kajatipus.getValue() == "olasz")
             {
                 Kajanev.getItems().clear();
                 Kajanev.getItems().addAll(
@@ -194,6 +196,32 @@ public class main extends Application implements EventHandler<ActionEvent> {
                         "Ravioli",
                         "Bolognai spagetti",
                         "Carbonara"
+                );
+            }
+
+            if(Kajatipus.getValue() == "kinai")
+            {
+                Kajanev.getItems().clear();
+                Kajanev.getItems().addAll(
+                        "Piritott teszta",
+                        "Mezes csirke",
+                        "Eros-savanyu leves",
+                        "Tavaszi tekercs",
+                        "Csirke chow-mein"
+
+                );
+            }
+
+            else if(Kajatipus.getValue() == "indiai")
+            {
+                Kajanev.getItems().clear();
+                Kajanev.getItems().addAll(
+                        "Currys csirke ananasszal",
+                        "Tavaszi tekercs",
+                        "Naan",
+                        "Lencses-borsos dahl",
+                        "Khir"
+
                 );
             }
         }
