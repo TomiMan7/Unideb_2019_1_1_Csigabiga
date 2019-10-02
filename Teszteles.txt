@@ -75,7 +75,7 @@ tökéletesen mûködik.
 	-A finomfõzeléket kiválasztva megfelelõen megjelenik a kívánt recept.
 	-A túrós csuszát kiválasztva megfelelõen megjelenik a kívánt recept.
 
--Az olasu ételek tesztesetei:
+-Az olasz ételek tesztesetei:
 Az étel tipusok listából a magyaros típust kiválasztva megfelelõen betöltõdnek a
 hozzá rendelt ételek:
 		-"Pizza"
@@ -92,3 +92,23 @@ hozzá rendelt ételek:
 A "Segítség" gomb a legördülõ listákkal egyvonalban jelenik meg, jól látható.
 Használható, mivel kattintás után egy külön ablakban felhozza a hozzá adott
 szöveget, útmutatást. 
+
+- Kínai ételek tesztesetei:
+PreCondition: Az étel típus listából kiválasztottuk a "kinai" feliratot.
+A második lista a következõket jeleníti meg:
+	//A teszt sikeres, ha kattintásra a kívánt recept megjelenik.
+		-"piritott teszta" - sikeres teszt
+		-"mezes csirke" - sikeres teszt
+		-"eros-savanyu leves" - sikeres teszt
+		-"tavaszi tekercs" - sikeres teszt
+		-"csirke chow-mein" - sikeres teszt
+
+- India ételek tesztesetei:
+PreCondition: Az étel típus listából kiválasztottuk az "indiai" feliratot.
+A második lista a következõket jeleníti meg:
+	//A teszt sikeres, ha kattintásra a kívánt recept megjelenik.
+		-"currys csirke ananasszal" - sikeres teszt
+		-"tavaszi tekercs" - sikeres teszt
+		-"naan" - sikeres teszt
+		-"lencses-borsos dahl" - sikeres teszt
+		-"khir" - sikeres teszt
