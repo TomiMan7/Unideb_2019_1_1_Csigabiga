@@ -103,15 +103,8 @@ A második lista a következõket jeleníti meg:
 		-"tavaszi tekercs" - sikeres teszt
 		-"csirke chow-mein" - sikeres teszt
 
-- India ételek tesztesetei:
-PreCondition: Az étel típus listából kiválasztottuk az "indiai" feliratot.
-A második lista a következõket jeleníti meg:
-	//A teszt sikeres, ha kattintásra a kívánt recept megjelenik.
-		-"currys csirke ananasszal" - sikeres teszt
-		-"tavaszi tekercs" - sikeres teszt
-		-"naan" - sikeres teszt
-		-"lencses-borsos dahl" - sikeres teszt
-		-"khir" - sikeres teszt
+
+//Az indiai ételek tesztelése hiányzik, nem lett elvégezve
 
 
 Manuális tesztelés 2019.10.02 összefoglaló
