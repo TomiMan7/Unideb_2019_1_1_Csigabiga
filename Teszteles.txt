@@ -112,3 +112,35 @@ A második lista a következõket jeleníti meg:
 		-"naan" - sikeres teszt
 		-"lencses-borsos dahl" - sikeres teszt
 		-"khir" - sikeres teszt
+
+
+Manuális tesztelés 2019.10.02 összefoglaló
+
+ - Az elsõ verzióban a JSON kezelhetõsége miatt egyszerû, ékezet nélküli
+	kiiratás az alap //known issue
+ - Minden UI elemhez az a szöveg lett hozzárendelve, mint a terveken,
+	a JSON elemei helyesen lettek megadva - sikeres
+	*ez késõbb lett bõvítve segítség gombbal
+ - A gomb jól látható helyen van az elemek nem csúsznak össze - sikeres
+ - A Segítség felirat egyértelmû, kattintásra egy popup jelenik meg a 
+	segítõ szöveggel - sikeres
+ - A gomb kattintható és jól mûködik más elemek használata után és
+	közben is. Akárhányszor használható - sikeres
+ - A Segítség gombhoz tartozó pop-up szövege jól látható, egyértelmû
+	és érthetõ - sikeres
+	*helyesírási hibák javítva lettek
+ - A "Kérem válasszon étel típust!" legördülõ lista kattintásra mûködik
+	az elemei választhatóak - sikeres
+ - A lista elemei megegyeznek a forráskódban lévõkkel, azok megfelelõen
+	mûködnek - sikeres
+ - A második lista elérhetõvé válik és feltöltõdik elemekkel, ha az elsõ
+	listából választottunk kategóriát - sikeres
+ - A második lista elemei kattinthatóak és betöltõdnek - sikeres
+ - A második lista elemei megegyeznek a forrásfájlban lévõkkel -sikeres
+ - A szövegdoboz feletti label a helyén van, helyesen íródik ki - sikeres
+ - A szövegdobozban megjelenik egy elem, ha a második listából választottunk
+	- sikeres
+ - A szövegdoboz tartalma módosul a második listában való változtatás 
+	esetén - sikeres
+ - A szövegdoboz tartalma a felületen kézzel nem módosítható - sikeres
+ - A szövegben megjelenõ link könnyen másolható -sikeres
