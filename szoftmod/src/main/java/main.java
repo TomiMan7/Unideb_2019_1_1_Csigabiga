@@ -194,7 +194,7 @@ public class main extends Application implements EventHandler<ActionEvent> {
                 Kajanev.getItems().clear();
                 Kajanev.getItems().addAll(
                         "Pizza",
-                        "Lassagne",
+                        "Lasagne",
                         "Ravioli",
                         "Bolognai spagetti",
                         "Carbonara"
