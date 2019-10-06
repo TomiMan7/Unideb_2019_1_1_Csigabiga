@@ -46,7 +46,7 @@ nem is lehet választani .
 		-"Tavaszi tekercs"
 		-"Csirke chow-mein"
 		-"Currys csirke ananasszal"
-		-"Tavaszi tekercs"
+		-"Chala masala"
 		-"Naan"
 		-"Lencses-borsos dahl"
 		-"Khir"
