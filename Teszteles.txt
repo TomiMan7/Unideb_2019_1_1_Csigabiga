@@ -104,7 +104,15 @@ A második lista a következõket jeleníti meg:
 		-"csirke chow-mein" - sikeres teszt
 
 
-//Az indiai ételek tesztelése hiányzik, nem lett elvégezve
+- Indiai ételek tesztesetei:
+PreCondition: Az étel típus listából kiválasztottuk a "indiai" feliratot.
+A második lista a következõket jeleníti meg:
+	//A teszt sikeres, ha kattintásra a kívánt recept megjelenik.
+		-"Currys csirke ananasszal" - sikeres teszt
+		-"Chala masala" - sikeres teszt
+		-"Naan" - sikeres teszt
+		-"Lencses-borsos dahl" - sikeres teszt
+		-"Khir" - sikeres teszt
 
 
 Manuális tesztelés 2019.10.02 összefoglaló

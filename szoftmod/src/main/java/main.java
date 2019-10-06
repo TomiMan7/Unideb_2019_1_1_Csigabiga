@@ -219,7 +219,7 @@ public class main extends Application implements EventHandler<ActionEvent> {
                 Kajanev.getItems().clear();
                 Kajanev.getItems().addAll(
                         "Currys csirke ananasszal",
-                        "Tavaszi tekercs",
+                        "Chana masala",
                         "Naan",
                         "Lencses-borsos dahl",
                         "Khir"
